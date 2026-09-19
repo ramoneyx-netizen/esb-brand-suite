@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "ESB Brand Suite",
+    "slug": "esb-brand-suite",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "esbbrand",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.esbbrandsuite.app" },
+    "android": { "package": "com.esbbrandsuite.app", "adaptiveIcon": { "backgroundColor": "#0B1220" } },
+    "plugins": ["expo-router"],
+    "experiments": { "typedRoutes": true }
+  }
+}
