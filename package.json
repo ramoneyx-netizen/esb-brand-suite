@@ -8,7 +8,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "vercel-build": "echo 'Vercel API functions are ready'"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "@types/react": "~19.0.10",
+    "@vercel/node": "^5.3.0",
     "typescript": "~5.8.3"
   }
 }

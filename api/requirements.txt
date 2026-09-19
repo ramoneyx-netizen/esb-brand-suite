@@ -1,1 +1,1 @@
-@vercel/node
+@vercel/node is installed through package.json; this file is intentionally unused by the TypeScript Vercel function.
